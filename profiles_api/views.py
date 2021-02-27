@@ -1,7 +1,7 @@
-from rest_framework.views import APIViews
+from rest_framework.views import APIView
 from rest_framework.response import Response
 
-class HellowApiView(APIView):
+class HelloApiView(APIView):
     """Test API View"""
 
     def get(self, request, format=None):
