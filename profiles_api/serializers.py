@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from profiles import models
+from profiles_api import models
 
 class HelloSerializer(serializers.Serializer):
     """Serialzer a name field for testing our API view"""
